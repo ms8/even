@@ -1,0 +1,278 @@
+
+
+.masthead {
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding: 120px 0 10px !important;
+}
+.masthead h1 {
+    font-size: 120px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+.masthead p {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.25;
+}
+.masthead .btn {
+    border: 0 none;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 5px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 19px 24px;
+    transition: none 0s ease 0s;
+}
+.masthead-links {
+    list-style: none outside none;
+    margin: 0;
+}
+.masthead-links li {
+    color: rgba(255, 255, 255, 0.25);
+    display: inline;
+    padding: 0 10px;
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #020031 0%, #6D3353 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    color: #FFFFFF;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+}
+.jumbotron h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.jumbotron p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+.jumbotron a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out 0s;
+}
+.jumbotron a:hover {
+    color: #FFF;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+}
+.masthead {
+    color: #FFF;
+    margin-bottom: 0;
+    padding: 70px 0 80px;
+}
+.masthead h1 {
+    font-size: 110px;
+    letter-spacing:10px;
+    line-height: 1;
+    color: #FFF;
+}
+.masthead p {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.25;
+}
+.masthead-links {
+    list-style: none outside none;
+    margin: 0;
+}
+.masthead-links li {
+    color: rgba(255, 255, 255, 0.25);
+    display: inline;
+    padding: 0 10px;
+}
+
+.subhead {
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+}
+.subhead h1 {
+    font-size: 60px;
+}
+.subhead p {
+    margin-bottom: 20px;
+}
+.subhead .navbar {
+    display: none;
+}
+.marketing {
+    color: #5A5A5A;
+    text-align: center;
+}
+.marketing h1 {
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 60px 0 10px;
+}
+.marketing h2 {
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+.marketing p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.marketing .marketing-byline {
+    color: #999999;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 40px;
+}
+.marketing-img {
+    display: block;
+    margin: 0 auto 30px;
+    max-height: 145px;
+}
+
+.jumbotron {
+    /*background: linear-gradient(45deg, #4E0C6D 0%, #9515D1 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    background: linear-gradient(45deg, #FB50CA 0%, #F200CA   100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.jumbotron:after {
+
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+.marketing h1 {
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 60px 0 10px;
+}
+
+/*win 8 style*/
+#wrapper1 div, #wrapper2 div, #wrapper3 div {
+    margin: 5px;
+    text-align: center;
+}
+#thumb1-1, #thumb2-1, #thumb3-1 {
+    background: url("../lib/1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 103px;
+    left: 0;
+    line-height: 103px;
+    position: absolute;
+    top: 0;
+    width: 215px;
+}
+#thumb1-2, #thumb2-2, #thumb3-2 {
+    background: url("../lib/2.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 102px;
+    left: 0;
+    line-height: 102px;
+    position: absolute;
+    top: 113px;
+    width: 215px;
+}
+#thumb1-3, #thumb2-3, #thumb3-3 {
+    background: url("../lib/3.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 65px;
+    left: 225px;
+    line-height: 65px;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+#thumb1-4, #thumb2-4, #thumb3-4 {
+    background: url("../lib/4.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 65px;
+    left: 375px;
+    line-height: 65px;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+#thumb1-5, #thumb2-5, #thumb3-5 {
+    background: url("../lib/5.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 140px;
+    left: 225px;
+    line-height: 140px;
+    position: absolute;
+    top: 75px;
+    width: 290px;
+}
+#thumb1-6, #thumb2-6, #thumb3-6 {
+    background: url("../lib/6.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 215px;
+    left: 525px;
+    line-height: 215px;
+    position: absolute;
+    top: 0;
+    width: 440px;
+}
+#thumb1-7, #thumb2-7, #thumb3-7 {
+    background: url("../lib/7.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 160px;
+    left: 0;
+    line-height: 160px;
+    position: absolute;
+    top: 225px;
+    width: 330px;
+}
+#thumb1-8, #thumb2-8, #thumb3-8 {
+    background: url("../lib/8.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 75px;
+    left: 0;
+    line-height: 75px;
+    position: absolute;
+    top: 395px;
+    width: 160px;
+}
+#thumb1-9, #thumb2-9, #thumb3-9 {
+    background: url("../lib/9.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 75px;
+    left: 170px;
+    line-height: 75px;
+    position: absolute;
+    top: 395px;
+    width: 160px;
+}
+#thumb1-10, #thumb2-10, #thumb3-10 {
+    background: url("../lib/10.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 205px;
+    left: 340px;
+    line-height: 205px;
+    position: absolute;
+    top: 265px;
+    width: 420px;
+}
+#thumb1-11, #thumb2-11, #thumb3-11 {
+    background: url("../lib/11.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 98px;
+    left: 770px;
+    line-height: 98px;
+    position: absolute;
+    top: 265px;
+    width: 195px;
+}
+#thumb1-12, #thumb2-12, #thumb3-12 {
+    background: url("../lib/12.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 97px;
+    left: 770px;
+    line-height: 97px;
+    position: absolute;
+    top: 373px;
+    width: 195px;
+}
+/*win8 style*/
