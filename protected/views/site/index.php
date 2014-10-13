@@ -36,7 +36,7 @@ $this->pageTitle=Yii::app()->name;
 <div id="zone" class="row" style="margin:50px 160px; ">
     <div id="tttdffimg" class="module span3">
         <div style="background-color: #FEAEC9;height: 80px;padding: 25px 0;text-align: center;color:#fff;font-size:25px">
-            <a href="?r=shopproduct/shop&id=4">南苑1</a>
+            <a href="?r=shopproduct/shop&id=1">南苑1</a>
         </div>
     </div>
     <div id="tttdffimg" class="module span3" style="margin-left: 15px;">
