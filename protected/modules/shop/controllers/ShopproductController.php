@@ -122,10 +122,13 @@ class ShopproductController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Shopproduct');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+        if(isset($_SESSION['franchisee_user'])){
+            $fid = $_SESSION['franchisee_user'];
+            $shop_products = ProductMnt::getShopProducts($fid);
+            $this->render('index',array(
+                'products'=>$shop_products,
+            ));
+        }
 	}
 
 	/**

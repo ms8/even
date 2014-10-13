@@ -14,7 +14,7 @@ $this->menu=array(
 
 <h1>Shopproducts</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-)); ?>
+<?php foreach($products as $product){?>
+    <h3>商品编号：<?php echo $product->pid?></h3>
+    <h3>名称：<?php echo $product->pname?></h3>
+<?php }?>

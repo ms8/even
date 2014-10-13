@@ -63,19 +63,19 @@ class Shopproduct extends CActiveRecord
 	 */
 	public function attributeLabels()
 	{
-		return array(
-			'id' => 'ID',
-			'fid' => 'Fid',
-			'fshopname' => 'Fshopname',
-			'pid' => 'Pid',
-			'pname' => 'Pname',
-			'productpic' => 'Productpic',
-			'productprice' => 'Productprice',
-			'pdescripction' => 'Pdescripction',
-			'typecode' => 'Typecode',
-			'typename' => 'Typename',
-			'createtime' => 'Createtime',
-		);
+        return array(
+            'id' => 'ID',
+            'fid' => 'Fid',
+            'fshopname' => 'Fshopname',
+            'pid' => 'Pid',
+            'pname' => 'Pname',
+            'productpic' => 'Productpic',
+            'productprice' => 'Productprice',
+            'pdescripction' => 'Pdescripction',
+            'typecode' => 'Typecode',
+            'typename' => 'Typename',
+            'createtime' => 'Createtime',
+        );
 	}
 
 	/**
@@ -92,25 +92,25 @@ class Shopproduct extends CActiveRecord
 	 */
 	public function search()
 	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
+        // @todo Please modify the following code to remove attributes that should not be searched.
 
-		$criteria=new CDbCriteria;
+        $criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id,true);
-		$criteria->compare('fid',$this->fid,true);
-		$criteria->compare('fshopname',$this->fshopname,true);
-		$criteria->compare('pid',$this->pid,true);
-		$criteria->compare('pname',$this->pname,true);
-		$criteria->compare('productpic',$this->productpic,true);
-		$criteria->compare('productprice',$this->productprice);
-		$criteria->compare('pdescripction',$this->pdescripction,true);
-		$criteria->compare('typecode',$this->typecode,true);
-		$criteria->compare('typename',$this->typename,true);
-		$criteria->compare('createtime',$this->createtime,true);
+        $criteria->compare('id',$this->id,true);
+        $criteria->compare('fid',$this->fid,true);
+        $criteria->compare('fshopname',$this->fshopname,true);
+        $criteria->compare('pid',$this->pid,true);
+        $criteria->compare('pname',$this->pname,true);
+        $criteria->compare('productpic',$this->productpic,true);
+        $criteria->compare('productprice',$this->productprice);
+        $criteria->compare('pdescripction',$this->pdescripction,true);
+        $criteria->compare('typecode',$this->typecode,true);
+        $criteria->compare('typename',$this->typename,true);
+        $criteria->compare('createtime',$this->createtime,true);
 
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
+        return new CActiveDataProvider($this, array(
+            'criteria'=>$criteria,
+        ));
 	}
 
 	/**

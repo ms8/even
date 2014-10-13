@@ -64,13 +64,13 @@
                 </a>
             </li>
             <li >
-                <a href="?r=shop/franchisees/snap&id=<?php echo $model->id?>">
-                    货架管理
+                <a href="?r=shop/shopproduct/index">
+                    仓库管理
                 </a>
             </li>
-            <li>
-                <a onclick="change(this)" name="passwordChange">
-                    销售管理
+            <li >
+                <a href="?r=shop/orderinfo/index">
+                    订单管理
                 </a>
             </li>
 
